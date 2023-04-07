@@ -9,11 +9,13 @@
 }
 
 .catalog__item {
-  background-color: #fff;
-  border-radius: 10px;
-  width: 250px;
-  padding: 20px;
-}
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  
+    width: 100%
+    margin: 10px;
+  }
 
 .catalog__item-image {
   width: 100%;
@@ -32,3 +34,22 @@
   font-size: 18px;
   margin-top: 10px;
 }
+
+.catalog__grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+@media (min-width: 576px) {
+    .catalog__item {
+        width: calc(50% - 20px);
+      }
+  }
+
+@media (min-width: 992px) {
+    .catalog__item {
+        width: calc((100% / 3) - 20px);
+      }
+  }
+
