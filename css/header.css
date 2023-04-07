@@ -30,4 +30,7 @@
     .header__menu {
       display: flex;
     }
+    .header__menu-btn {
+      display: none;
+    }
   }
