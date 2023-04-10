@@ -13,7 +13,7 @@
     border-radius: 10px;
     padding: 20px;
   
-    width: 100%
+    width: 100%;
     margin: 10px;
   }
 
@@ -45,11 +45,11 @@
     .catalog__item {
         width: calc(50% - 20px);
       }
-  }
-
-@media (min-width: 992px) {
-    .catalog__item {
-        width: calc((100% / 3) - 20px);
+    }
+    
+    
+    @media (min-width: 992px) {
+        .catalog__item {
+            width: calc((100% / 3) - 20px);
+          }
       }
-  }
-
